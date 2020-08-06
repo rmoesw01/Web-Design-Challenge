@@ -1,0 +1,44 @@
+nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+body {
+    background-color: lightgray;
+}
+
+h3, h4 {
+    color: teal;
+}
+
+.navbar-light .navbar-brand {
+    background-color: teal;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.contain-lg {
+    background-color: white;
+    margin-top: 40px;
+    /* margin-inline-start: 150px; */
+    /* margin-inline-end: 150px; */
+    
+    padding: 20px;
+}
+
+.selected {
+    border: 3px solid teal;
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: white;
+    }
+}
